@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherist;
+}
+
+input:-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial;
+  font-size: 18px;
+  width: 100%;
+}
+
+.body {
+  margin-top: 60px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__wrapper {
+  width: 300px;
+  overflow: hidden;
+}
+
+.form__title {
+  font-size: 35px;
+}
+
+.form__step {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.form__step label {
+  padding: 15px 12px;
+  background: #a8a9a9;
+  color: #c2c3c2;
+  font-size: 20px;
+}
+.form__step input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.form__step label.active {
+  background: gray !important;
+  color: #f2df3f !important;
+  border: 1px solid black !important;
+}
+
+.form__item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0px;
+}
+.form__item:nth-child(3) {
+  margin-bottom: 20px;
+}
+.form__item:nth-child(5) input {
+  width: 130px;
+}
+.form__item:nth-child(6) input {
+  width: 70px;
+}
+.form__item:nth-child(7) input {
+  width: 130px;
+}
+.form__item input, .form__item textarea {
+  width: 180px;
+  border: 1px solid #7d797a;
+  -webkit-box-shadow: inset 0px 1px 1px rgba(125, 121, 122, 0.5);
+          box-shadow: inset 0px 1px 1px rgba(125, 121, 122, 0.5);
+  border-radius: 5px;
+  padding: 4px;
+}
+.form__item input.error, .form__item textarea.error {
+  border: 1px solid red;
+}
+.form__item textarea {
+  height: 130px;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+.form__item-text {
+  width: 25%;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.btn {
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+.btn button {
+  padding: 4px 23px;
+  border: 3px solid black;
+  border-radius: 20px;
+  color: #f2df3f;
+  background: #b3a894;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-box-shadow: inset 0px 8px 10px rgba(255, 255, 255, 0.7);
+          box-shadow: inset 0px 8px 10px rgba(255, 255, 255, 0.7);
+}
+
+.form__info-block {
+  width: 50%;
+}
+
+.form__preferences-block {
+  width: 50%;
+}
+.form__preferences-block .form__item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.form__preferences-block .form__item .form__item-text {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 9px;
+}
+.form__preferences-block .form__item label {
+  display: block;
+  margin: 5px 0px;
+}
+.form__preferences-block .form__item label input {
+  width: auto;
+  margin-left: 15%;
+}
+
+.form__forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 200%;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.text-error {
+  color: red;
+  font-size: 10px;
+}
+
+.page__wrapper {
+  width: 400px;
+  border: 1px solid #bcbdbd;
+  background: #d1d2d1;
+  padding: 10px;
+}
+
+.page__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.page__info .page__items {
+  margin: 2px 0px;
+}

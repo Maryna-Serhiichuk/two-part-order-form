@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Task</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="body">
+			<div class="form__wrapper">
+				<div class="form__title">
+					Sign Up
+				</div>
+				<div class="form__step">
+
+					<input id="form-info" type="radio" name="step" checked>
+					<input id="form-preferences" type="radio" name="step">
+
+					<label class="form-info" for="form-info">Your info</label>
+					<label class="form-preferences" for="form-preferences">Your preferences</label>
+
+				</div>
+				<div class="form__forms">
+					<div class="form__info-block">
+						<div class="form__item">
+							<div class="form__item-text">Name</div>
+							<div>
+								<input class="form-name" type="text" name="name">
+								<div class="text-error"></div>
+							</div>
+							
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">Email</div>
+							<div>
+								<input class="form-email" type="text" name="email">
+								<div class="text-error"></div>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">Phone</div>
+							<div>
+								<input class="form-phone" type="text" name="phone">
+								<div class="text-error"></div>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">Address</div>
+							<div>
+								<input class="form-address" type="text" name="address">
+								<div class="text-error"></div>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">City</div>
+							<div>
+								<input class="form-city" type="text" name="city">
+								<div class="text-error"></div>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">State</div>
+							<div>
+								<input class="form-state" type="text" name="state">
+								<div class="text-error"></div>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">Zip</div>
+							<div>
+								<input class="form-zip" type="text" name="zip">
+								<div class="text-error"></div>
+							</div>
+						</div>
+						<div class="form__btn btn">
+							<button class="btn-next">Next ></button>
+						</div>
+					</div>
+					<div class="form__preferences-block">
+						<div class="form__item">
+							<div class="form__item-text">Food allergies</div>
+							<div class="text-error"></div> <!-- //// -->
+							<textarea class="form__allergies"></textarea>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">Frequency</div>
+							<div class="text-error"></div> <!-- //// -->
+							<div class="form__frequency-item">
+								<label>
+									<input type="radio" name="frequency" checked>
+									<span>Weekly</span>
+								</label>
+								<label>
+									<input type="radio" name="frequency">
+									<span>Biwekly</span>
+								</label>
+								<label>
+									<input type="radio" name="frequency">
+									<span>Monthly</span>
+								</label>
+							</div>
+						</div>
+						<div class="form__item">
+							<div class="form__item-text">Package Size</div>
+							<div class="text-error"></div> <!-- //// -->
+							<div class="form__package-size-item">
+								<label>
+									<input type="radio" name="package-size" checked>
+									<span>Taste test</span>
+								</label>
+								<label>
+									<input type="radio" name="package-size">
+									<span>Healthy Highlight</span>
+								</label>
+								<label>
+									<input type="radio" name="package-size">
+									<span>Full plate</span>
+								</label>
+							</div>
+						</div>
+						<div class="form__btn btn">
+							<button class="btn-sign">Sign Up</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JS -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
